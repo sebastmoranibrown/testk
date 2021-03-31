@@ -1,0 +1,61 @@
+.contenedor-botones {
+    width: 100%;
+    background: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+}
+
+.miboton {
+    width: 30%;
+    height: 40px;
+    border: 2px solid yellow;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    /* display: block; */
+}   
+
+.miboton:hover {
+    border: 2px solid orange;
+    color: #fff;
+    background-color: black;
+}   
+
+main {
+    margin-top: 80px;
+}
+
+
+@media (max-width: 595px) {
+    .contenedor-botones {
+        flex-direction: column;
+    }
+
+    .miboton {
+        width: 70%;
+        margin: 5px;
+    }
+
+    body {
+        background-color: #eee;
+    }
+
+    main {
+        margin-top: 170px;
+    }
+
+    footer {
+        background: black;
+        color: gold;
+    }    
+
+}

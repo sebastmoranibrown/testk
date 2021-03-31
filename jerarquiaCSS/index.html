@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerarquía de selectores CSS </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- https://developer.mozilla.org/es/docs/Web/CSS/Introducci%C3%B3n/Media -->
+    <!-- https://developer.mozilla.org/es/docs/Web/CSS/@media -->
+    <link rel="stylesheet" media="print" href="css/imprimir.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- nav.contenedor-botones>a*3[href="#"].miboton{Servicio $} -->
+    <nav class="contenedor-botones">
+        <a href="https://www.google.com" class="miboton">Google</a>
+        <a href="https://www.instagram.com" class="miboton">Instagram</a>
+        <a href="https://www.facebook.com" class="miboton">Facebook</a>
+    </nav>
+
+    <main>
+        <h1>Título 1</h1>
+        <section>
+            <h2>Título 2</h2>
+            <p class="parrafo2 parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis error nostrum cupiditate harum totam optio explicabo adipisci perspiciatis corporis alias. Porro eum hic vitae quisquam. Non modi ipsa voluptate blanditiis!
+            </p>
+        </section>
+
+        <!-- <article> -->
+        <section>
+            <p style="color: aqua;" class="parrafo2 parrafo" id="parrafo3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum dicta natus quis at ad doloribus dignissimos quibusdam quia! Autem fugit ab laboriosam natus dignissimos quasi ex architecto suscipit atque molestias.
+            </p>
+        </section>            
+        <!-- </article> -->
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+    </main>
+
+
+    <footer>&copy; Copyright 2020</footer>
+
+</body>
+</html>
